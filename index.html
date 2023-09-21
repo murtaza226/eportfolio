@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal E-portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d342e090e2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="http://drive.google.com/uc?export=view&id=1u9_iy9gns6OhsrbO3Ije3KopQrGSqtoG" class="logo" width="250" height="100">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    
+                    <h1>Hi, I'm <span>Murtaza Warraich</span><br> Welcome to my E-portfolio</h1>
+                </div>
+            </div>
+        
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="http://drive.google.com/uc?export=view&id=1H0lxqxVuWGDR9kNU6AqRyr8_Zd5zUhg6">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Welcome to my e-portfolio! This is an online collection to showcase my academic and professional accomplishments, 
+                            as well as my personal interests and experiences. My name is Murtaza Warraich, I am originally from Pakistan and my parents immigrated here for a better life.
+                            I have been attending York University since 2019 and I am pursing a degree in Information technology. 
+                            From a young age, I was captivated by the world of technology, and this passion has only grown stronger with time. 
+                            My journey into the realm of technology began with my fascination for electronic gadgets like my $20 helicopter and computer games such as my 2008 sony psp.
+                            This quickly evolved into a deep-seated curiosity about how they worked and a desire to create and innovate.
+                            My passion for technology has driven me to pursue a career in this field, and I see myself continuing to thrive in it. 
+                            I view technology as a dynamic and ever-evolving domain that offers endless opportunities for innovation and problem-solving. 
+                            Whether it's developing cutting-edge software, designing user-friendly interfaces, or contributing to groundbreaking research
+                            I am dedicated to making a meaningful impact through technology and look forward to the exciting journey ahead.</p>
+                            
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="education">
+                                <ul>
+                                    <li><span>York University ----(2019-2024)</span><br>Bachelors of arts in Information Technology | GPA [3.5/4]<br> •	Relevant Coursework: Object-oriented programming, Data structures, Differential calculus, Dtatistics, Discrete mathematics, Data communications and networks, Designing database systems.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Dollar Links Toronto ----(April 2023-September 2023)</span><br>Data entry clerk<br>•	Proficiently entered, verified, and updated data using company’s transaction website and Microsoft Excel to maintain accurate and up-to-date records.
+                                     <br>•	Processed cash and check deposits, withdrawals, and transfers for customers, ensuring compliance with banking regulations and security protocols.
+                                     <br>•	Balanced cash drawer and accounted for all transactions at the end of each shift, consistently achieving 100% accuracy in cash handling.
+                                     <br>•	Provided superior customer service by actively listening to customer needs, addressing inquiries, and resolving issues promptly and professionally.
+                                    </li>
+                                    <li><span>Simcoe Parts Service ----(April 2022-September 2022) </span><br>Associate <br>•	Executed inventory management tasks, including receiving, storing, picking, and packing Honda products, ensuring accurate order fulfillment and timely delivery.
+                                     <br>•	Worked closely with team members and supervisors to meet production targets, handle peak demand periods, and ensure timely order processing.
+                                     <br>•	Implemented time-saving strategies, such as optimizing cart assembly resulting in improved efficiency.
+                                     <br>•	Trained new warehouse associates on Honda's specific processes, safety procedures, and equipment operation, ensuring a skilled and knowledgeable workforce.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="skills">
+                                <ul>
+                                    <li><span>Technical</span><br>Microsoft office (Word, Excel, PowerPoint), Java, Python, Html, CSS, JavaScript, MATLAB</li>
+                                    <li><span>Languages</span><br>English (Native), Urdu (Proficient)</li>
+                                    <li><span>Interests</span><br>Sports (basketball, swimming, soccer), Drawing, Gaming, Film</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="http://drive.google.com/uc?export=view&id=15tIr5_smlwFtAzPVolhB49Nzqv6cT4B2">
+                        <h3>IFixit fast fix manual</h3>
+                        <div class="layer">
+                            
+                            <p>•	Develop a web-based service manual for the process of replacing a heat sink fan inside of a Lenovo ThinkCentre M83 SFF, for publication on the IFixit website. <br>
+                                •	Communicated ideas and information clearly and concisely to team members, ensuring a common understanding of project goals and tasks. <br>
+                                •	Resulted in helping on average 50 people per month by providing a clear and concise manual. 
+                            </p>
+                            <a href="https://www.ifixit.com/Guide/Lenovo+Thinkcentre+M83+SFF+Fan+Replacement/157678" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="http://drive.google.com/uc?export=view&id=1fJuZgA5YsJU8sBELTpkdRGVUuZzLV08a">
+                        <h3>Java GUI app</h3>
+                        <div class="layer">
+
+                            <p>•	Developed a Java-based Graphical User Interface (GUI) application for bank account balance management.<br>
+                                •	Utilized Java's file I/O mechanisms to read and write account balance data to/from files.
+                               
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="http://drive.google.com/uc?export=view&id=1YJ4R_F6rzRpyqGhYe7AnII0y3euGPkFD">
+                        <h3>E-mail automation billing reminder</h3>
+                        <div class="layer">
+                            <p>•	Developed and implemented an email automation system leveraging Excel, Python scripting, and deta.space (cloud service) to create a personalized bill reminder.<br>
+                                •	Developed a bill reminder email automation system using Python's ‘smtplib’ library and the ‘dotenv’ module for secure email configuration and management.<br>
+                                •	Achieved time savings by automating the process of bill reminders, reducing manual effort and the risk of missed payments.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>murtazaw226@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>647-561-4400</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/murtazawarr/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="http://drive.google.com/uc?export=view&id=1gncEXVz2QCpvo_My0xfsT6bo954EgMsN" target="_blank" class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+ 
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-120px";
+    }
+
+</script>
+
+    </body>
+</html>
